@@ -1,4 +1,4 @@
-use [quan ly thu vien hvktqs]
+use [quan ly thu vien]
 
 drop table if exists DauSach
 create table DauSach (
