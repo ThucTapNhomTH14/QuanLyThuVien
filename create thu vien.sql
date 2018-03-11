@@ -13,7 +13,7 @@ TacGia_ID varchar(20)
 )
 
 drop table if exists Sach
-create table BanSao (
+create table Sach (
 Sach_ID varchar(20) not null primary key,
 DauSach_ID varchar(20) not null foreign key references DauSach(Sach_ID),
 )
