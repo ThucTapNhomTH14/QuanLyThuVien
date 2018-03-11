@@ -9,7 +9,7 @@ drop table if exists DauSach
 create table DauSach (
 DauSach_ID varchar(20) not null primary key,
 Sach_ten nvarchar(40),
-TacGia_ID varchar(20)
+TacGia_ID varchar(20) not null foreign key referneces TacGia(TacGia_ID)
 )
 
 drop table if exists Sach
