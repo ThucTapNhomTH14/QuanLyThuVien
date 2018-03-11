@@ -1,9 +1,15 @@
 use [quan ly thu vien]
 
+drop table if exists TacGia 
+create table TacGia (
+TacGia_ID varchar(20) not null primary key,
+TacGia_ten nvarchar(40)
+)
 drop table if exists DauSach
 create table DauSach (
 Sach_ID varchar(20) not null primary key,
 Sach_ten nvarchar(40),
+TacGia_ID varchar(20)
 )
 
 drop table if exists DocGia
