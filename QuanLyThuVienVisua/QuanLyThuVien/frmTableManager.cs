@@ -30,8 +30,9 @@ namespace QuanLyThuVien
 
         private void quảnLýHệThốngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmQuanLyHeThong f=new frmQuanLyHeThong()
-            f.Show();
+            
         }
+
+        
     }
 }

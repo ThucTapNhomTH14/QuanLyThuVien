@@ -9,3 +9,14 @@ D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\QuanLyThuVien\QuanLyThuVien\Q
 D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
 D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTableManager.resources
 D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmAccountProfile.resources
+D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmAccountProfile.resources
+D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmLogin.resources
+D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTableManager.resources
+D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb

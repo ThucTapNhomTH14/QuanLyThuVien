@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtPassWord = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -49,6 +49,14 @@
             this.panel1.Size = new System.Drawing.Size(332, 34);
             this.panel1.TabIndex = 0;
             // 
+            // txtUserName
+            // 
+            this.txtUserName.Location = new System.Drawing.Point(107, 9);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(218, 20);
+            this.txtUserName.TabIndex = 1;
+            this.txtUserName.Text = "admin";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -58,13 +66,6 @@
             this.label1.Size = new System.Drawing.Size(98, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên đăng nhập:";
-            // 
-            // txtUserName
-            // 
-            this.txtUserName.Location = new System.Drawing.Point(107, 9);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(218, 20);
-            this.txtUserName.TabIndex = 1;
             // 
             // panel2
             // 
@@ -81,6 +82,7 @@
             this.txtPassWord.Name = "txtPassWord";
             this.txtPassWord.Size = new System.Drawing.Size(218, 20);
             this.txtPassWord.TabIndex = 1;
+            this.txtPassWord.Text = "1";
             this.txtPassWord.UseSystemPasswordChar = true;
             // 
             // label2
@@ -105,6 +107,7 @@
             // 
             // btnExit
             // 
+            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnExit.Location = new System.Drawing.Point(214, 105);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);

@@ -45,9 +45,6 @@ CREATE TABLE Account
 	PassWord NVARCHAR(100) NOT NULL,
 	Type INT NOT NULL DEFAULT 0--1: admin/0:user
 )
-GO
-
-
 ------------
 insert dbo.TacGia (
 TacGia_ID,TacGia_ten) values ('00001','Margaret Mitchell')
@@ -136,3 +133,5 @@ VALUES  (
           N'1' , -- PassWord - nvarchar(100)
           0  -- Type - int
         )
+
+

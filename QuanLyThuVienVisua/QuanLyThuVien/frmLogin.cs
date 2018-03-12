@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyThuVien.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -32,10 +33,25 @@ namespace QuanLyThuVien
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            frmTableManager f = new frmTableManager();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
+            string username = txtUserName.Text;
+            string password = txtPassWord.Text;
+            if (Login(username, password))
+            {
+                frmTableManager f = new frmTableManager();
+                this.Hide();
+                f.ShowDialog();
+                this.Show();
+            }
+            else
+            {
+                MessageBox.Show("Sai tên tài khoản hoặc mật khẩu!");
+            }
+
+        }
+
+        bool Login(string username, string password)
+        {
+            return AccountDAO.Instance.Login(username, password);
         }
     }
 }
