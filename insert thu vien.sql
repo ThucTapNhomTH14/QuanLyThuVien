@@ -12,17 +12,6 @@ TacGia_ID,TacGia_ten) values ('00004','Antoine de Saint-Exupéry')
 insert dbo.TacGia (
 TacGia_ID,TacGia_ten) values ('00005','Mark Twain')
 
-insert dbo.Sach (
-Sach_ID,DauSach_ID) values ('001','1')
-insert dbo.Sach (
-Sach_ID,DauSach_ID) values ('002','2')
-insert dbo.Sach (
-Sach_ID,DauSach_ID) values ('003','3')
-insert dbo.Sach (
-Sach_ID,DauSach_ID) values ('003','4')
-insert dbo.Sach (
-Sach_ID,DauSach_ID) values ('005','5')
-
 insert dbo.DauSach (
 DauSach_ID,Sach_ten,TacGia_ID) values ('001','Chi Pheo','00003')
 insert dbo.DauSach (
@@ -33,6 +22,17 @@ insert dbo.DauSach (
 DauSach_ID,Sach_ten,TacGia_ID) values ('004','Ong gia khot-ta-bit','00002')
 insert dbo.DauSach (
 DauSach_ID,Sach_ten,TacGia_ID) values ('005','Cuoc phieu luu cua Tomsawyer'.'00005')
+
+insert dbo.Sach (
+DauSach_ID,Sach_ID) values ('0001','00010001')
+insert dbo.Sach (
+DauSach_ID,Sach_ID) values ('0002','00020002')
+insert dbo.Sach (
+DauSach_ID,Sach_ID) values ('0003','00030003')
+insert dbo.Sach (
+DauSach_ID,Sach_ID) values ('0003','00030004')
+insert dbo.Sach (
+DauSach_ID,Sach_ID) values ('0005','00050005')
 
 insert dbo.DocGia (
 DocGia_ID, DocGia_ngaysinh, DocGia_ten) values ('0001',1997-10-9,'Luong Hai Duc')
@@ -46,12 +46,12 @@ insert dbo.DocGia (
 DocGia_ID, DocGia_ngaysinh, DocGia_ten) values ('0005',1997-12-6,'Hoang Hai Nam')
 
 insert dbo.TTMuonTra (
-DocGia_ID, NgayMuon, NgayTra, Sach_ID) values ('0001',2017-6-9,2017-8-9,'1')
+DocGia_ID, NgayMuon, NgayTra, Sach_ID) values ('0001',2017-6-9,2017-8-9,'00010001')
 insert dbo.TTMuonTra (
-DocGia_ID, NgayMuon, NgayTra, Sach_ID) values ('0002',2017-5-9,2017-6-9,'2')
+DocGia_ID, NgayMuon, NgayTra, Sach_ID) values ('0002',2017-5-9,2017-6-9,'00020002')
 insert dbo.TTMuonTra (
-DocGia_ID, NgayMuon, NgayTra, Sach_ID) values ('0003',2017-4-9,2017-5-9,'3')
+DocGia_ID, NgayMuon, NgayTra, Sach_ID) values ('0003',2017-4-9,2017-5-9,'00030003')
 insert dbo.TTMuonTra (
-DocGia_ID, NgayMuon, NgayTra, Sach_ID) values ('0004',2017-3-9,2017-4-9,'4')
+DocGia_ID, NgayMuon, NgayTra, Sach_ID) values ('0004',2017-3-9,2017-4-9,'00030004')
 insert dbo.TTMuonTra (
-DocGia_ID, NgayMuon, NgayTra, Sach_ID) values ('0005',2017-2-9,2017-3-9,'5')
+DocGia_ID, NgayMuon, NgayTra, Sach_ID) values ('0005',2017-2-9,2017-3-9,'00050005')
