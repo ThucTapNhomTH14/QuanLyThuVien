@@ -38,8 +38,14 @@
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DauSach_ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Sach_ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TacGia_ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sach_conlai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -49,7 +55,7 @@
             this.thôngTinTàiKhoảnToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(577, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(567, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -69,6 +75,7 @@
             this.cậpNhậtSáchToolStripMenuItem.Name = "cậpNhậtSáchToolStripMenuItem";
             this.cậpNhậtSáchToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.cậpNhậtSáchToolStripMenuItem.Text = "Cập nhật sách";
+            this.cậpNhậtSáchToolStripMenuItem.Click += new System.EventHandler(this.cậpNhậtSáchToolStripMenuItem_Click);
             // 
             // quảnLýĐộcGiảToolStripMenuItem
             // 
@@ -125,11 +132,62 @@
             this.label1.Text = "Quản lý thư viện";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.DauSach_ID,
+            this.Sach_ten,
+            this.TacGia_ten,
+            this.sach_conlai});
+            this.dataGridView1.Location = new System.Drawing.Point(13, 76);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersVisible = false;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(538, 234);
+            this.dataGridView1.TabIndex = 2;
+            // 
+            // DauSach_ID
+            // 
+            this.DauSach_ID.DataPropertyName = "DauSach_ID";
+            this.DauSach_ID.FillWeight = 197.9695F;
+            this.DauSach_ID.HeaderText = "Mã sách";
+            this.DauSach_ID.Name = "DauSach_ID";
+            this.DauSach_ID.ReadOnly = true;
+            // 
+            // Sach_ten
+            // 
+            this.Sach_ten.DataPropertyName = "Sach_ten";
+            this.Sach_ten.FillWeight = 51.01523F;
+            this.Sach_ten.HeaderText = "Tên sách";
+            this.Sach_ten.Name = "Sach_ten";
+            this.Sach_ten.ReadOnly = true;
+            // 
+            // TacGia_ten
+            // 
+            this.TacGia_ten.DataPropertyName = "TacGia_ten";
+            this.TacGia_ten.FillWeight = 51.01523F;
+            this.TacGia_ten.HeaderText = "Tác giả";
+            this.TacGia_ten.Name = "TacGia_ten";
+            this.TacGia_ten.ReadOnly = true;
+            // 
+            // sach_conlai
+            // 
+            this.sach_conlai.HeaderText = "Số lượng còn lại";
+            this.sach_conlai.Name = "sach_conlai";
+            this.sach_conlai.ReadOnly = true;
+            // 
             // frmTableManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(577, 322);
+            this.ClientSize = new System.Drawing.Size(567, 322);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
@@ -139,6 +197,7 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -156,5 +215,10 @@
         private System.Windows.Forms.ToolStripMenuItem cậpNhậtSáchToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quảnLýĐộcGiảToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quảnLýMượnTrảToolStripMenuItem;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DauSach_ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Sach_ten;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TacGia_ten;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sach_conlai;
     }
 }

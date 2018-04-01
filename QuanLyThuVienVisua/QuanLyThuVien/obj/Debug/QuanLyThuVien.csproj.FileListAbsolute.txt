@@ -20,3 +20,14 @@ D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien
 D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
 D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
 D:\##TaiLieuLapTrinh\#ME\#Codeme\3.CodeThucTapNhom\Quanlythuvien-1\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
+C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmAccountProfile.resources
+C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmLogin.resources
+C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTableManager.resources
+C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache

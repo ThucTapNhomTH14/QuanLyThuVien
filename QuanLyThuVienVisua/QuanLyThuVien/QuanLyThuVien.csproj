@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAO\AccountDAO.cs" />
+    <Compile Include="DAO\BookDAO.cs" />
     <Compile Include="DAO\DataProvider.cs" />
     <Compile Include="frmAccountProfile.cs">
       <SubType>Form</SubType>
