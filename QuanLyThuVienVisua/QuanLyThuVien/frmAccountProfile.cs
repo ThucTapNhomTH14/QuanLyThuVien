@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuanLyThuVien.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,12 @@ namespace QuanLyThuVien
 {
     public partial class frmAccountProfile : Form
     {
-        public frmAccountProfile()
+        public frmAccountProfile(string login_name)
         {
-            InitializeComponent();
+            User u = new User();
+            u.Username = login_name;
+            u.GetUserInfo();
+            InitializeComponent(u.Id,u.Username);
         }
     }
 }

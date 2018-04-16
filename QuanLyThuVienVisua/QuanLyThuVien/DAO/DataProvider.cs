@@ -20,7 +20,7 @@ namespace QuanLyThuVien.DAO
 
         private DataProvider() { }
 
-        private string connectionSRT = "Data Source=.\\SQLEXPRESS;Initial Catalog=quan ly thu vien;Integrated Security=True";
+        public string connectionSRT = "Data Source=.\\SQLEXPRESS;Initial Catalog=quan ly thu vien;Integrated Security=True";
 
         public DataTable ExecuteQuery(string query, object[] parameter=null)
         {

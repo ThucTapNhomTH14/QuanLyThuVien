@@ -23,14 +23,6 @@ namespace QuanLyThuVien
             Application.Exit();
         }
 
-        private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (MessageBox.Show("Bạn có thực sự muốn thoát không?", "Hỏi thoát", MessageBoxButtons.OKCancel) != DialogResult.OK)
-            {
-                e.Cancel = true;
-            }
-        }
-
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string username = txtUserName.Text;
@@ -38,6 +30,7 @@ namespace QuanLyThuVien
             if (Login(username, password))
             {
                 frmTableManager f = new frmTableManager();
+                f.setUsername(username);
                 this.Hide();
                 f.ShowDialog();
                 this.Show();

@@ -26,7 +26,7 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        private void InitializeComponent(string id,string username)
         {
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtDisplayName = new System.Windows.Forms.TextBox();
@@ -65,8 +65,10 @@
             // 
             this.txtDisplayName.Location = new System.Drawing.Point(107, 9);
             this.txtDisplayName.Name = "txtDisplayName";
+            this.txtDisplayName.ReadOnly = true;
             this.txtDisplayName.Size = new System.Drawing.Size(218, 20);
             this.txtDisplayName.TabIndex = 1;
+            this.txtDisplayName.Text = username;
             // 
             // label2
             // 
@@ -74,9 +76,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(3, 12);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 13);
+            this.label2.Size = new System.Drawing.Size(86, 13);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Tên hiển thị:";
+            this.label2.Text = "Tên tài khoản";
             // 
             // panel1
             // 
@@ -94,6 +96,7 @@
             this.txtUserName.ReadOnly = true;
             this.txtUserName.Size = new System.Drawing.Size(218, 20);
             this.txtUserName.TabIndex = 1;
+            this.txtUserName.Text = id;
             // 
             // label1
             // 
@@ -101,9 +104,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 13);
+            this.label1.Size = new System.Drawing.Size(81, 13);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Tên đăng nhập:";
+            this.label1.Text = "Mã tài khoản";
             // 
             // panel3
             // 

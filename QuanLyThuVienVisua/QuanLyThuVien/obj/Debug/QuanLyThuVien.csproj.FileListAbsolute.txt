@@ -31,3 +31,5 @@ C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVie
 C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTableManager.resources
 C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
 C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
+C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.PhieuMuon.resources
+C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmThemDocGia.resources
