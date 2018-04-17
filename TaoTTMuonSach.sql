@@ -1,19 +1,19 @@
-use [quan ly thu vien]
+use [TTN-QuanLyThuVien]
 go
 
 create type ListSachMuon as table (TTMuonTra_ID varchar(20),SachID varchar(20))
 go
 
-drop proc TaoIDMuonSach
+drop proc if exists TaoIDMuonSach
 go
-
 create proc TaoIDMuonSach(@DocGia_ID varchar(20), @ListSach as ListSachMuon readonly)
 as
 begin
 	declare @id varchar(20),@luot int
-	set @luot = (select LuotMuonSach from DocGia where DocGia_ID=@DocGia_ID)
-	set @id = @DocGia_ID
-	set @id += CONVERT(varchar,@luot);
+	set @id = (SELECT REPLACE(CONVERT(VARCHAR(20), GETDATE(), 103),'/','')+
+           RIGHT('0'+CAST(DATEPART(hour, GETDATE()) as varchar(2)),2)+
+           RIGHT('0'+CAST(DATEPART(minute, GETDATE())as varchar(2)),2)+
+           RIGHT('0'+CAST(DATEPART(Second, GETDATE())as varchar(2)),2))
 	insert into TTMuonTra (TTMuonTra_ID, DocGia_ID, NgayMuon)
 	values (@id,@DocGia_ID,GETDATE())
 
