@@ -1,4 +1,6 @@
 -----------------------
+drop proc GetAccountByUserName
+go
 CREATE PROC GetAccountByUserName
 @username NVARCHAR(100)
 AS
@@ -11,6 +13,8 @@ dbo.GetAccountByUserName @username = N'admin' -- nvarchar(100)
 
 GO
 -----------------------
+drop proc pro_Login
+go
 CREATE PROC pro_Login
 @username NVARCHAR(100), @password NVARCHAR(100)
 AS
