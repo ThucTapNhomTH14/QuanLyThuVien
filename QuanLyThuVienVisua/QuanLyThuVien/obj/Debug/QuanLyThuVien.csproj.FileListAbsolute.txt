@@ -33,3 +33,17 @@ C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVie
 C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.Cache
 C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.PhieuMuon.resources
 C:\Users\Trung\Desktop\ThucTapNhom\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmThemDocGia.resources
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojResolveAssemblyReference.cache
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmAccountProfile.resources
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmLogin.resources
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmTableManager.resources
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.frmThemDocGia.resources
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.PhieuMuon.resources
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+F:\Git-stuff\QuanLyThuVien\QuanLyThuVienVisua\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb

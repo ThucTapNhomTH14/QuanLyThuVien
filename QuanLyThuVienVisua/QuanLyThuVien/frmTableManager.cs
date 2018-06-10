@@ -151,7 +151,45 @@ namespace QuanLyThuVien
 
         private void btnSearchReader_Click(object sender, EventArgs e)
         {
-            string query = "exec TimDocGia";
+            BindingSource bs = new BindingSource();
+            bs.DataSource = dgv_Book.DataSource;
+
+            string filter = "";
+
+
+            // Check if text fields are not null before adding to filter. 
+            //if (!string.IsNullOrEmpty(txtName.Text))
+            //{
+            //    filter += "tennv" + " LIKE '%" + txtName.Text + "%' ";
+            //}
+            //if (!string.IsNullOrEmpty(txtCMND.Text))
+            //{
+            //    if (filter.Length > 0) filter += "AND ";
+            //    filter += "cmnd" + " LIKE '%" + txtCMND.Text + "%' ";
+            //}
+            //if (!string.IsNullOrEmpty(txtSDT.Text))
+            //{
+            //    if (filter.Length > 0) filter += "AND ";
+            //    filter += "sdt" + " LIKE '%" + txtSDT.Text + "%' ";
+            //}
+            //if (!string.IsNullOrEmpty(txtAddress.Text))
+            //{
+            //    if (filter.Length > 0) filter += "AND ";
+            //    filter += "diachi" + " LIKE '%" + txtAddress.Text + "%' ";
+            //}
+            //if (!string.IsNullOrEmpty(cb_department.Text))
+            //{
+            //    if (filter.Length > 0) filter += "AND ";
+            //    filter += "tenphong" + " LIKE '%" + cb_department.Text + "%' ";
+            //}
+            //if (!string.IsNullOrEmpty(cbDiploma.Text))
+            //{
+            //    if (filter.Length > 0) filter += "AND ";
+            //    filter += "tentdhv" + " LIKE '%" + cbDiploma.Text + "%' ";
+            //}
+
+            bs.Filter = filter;
+            dgv_Book.DataSource = bs;
         }
 
         private void cậpNhậtDanhSáchĐộcGiảToolStripMenuItem_Click(object sender, EventArgs e)
