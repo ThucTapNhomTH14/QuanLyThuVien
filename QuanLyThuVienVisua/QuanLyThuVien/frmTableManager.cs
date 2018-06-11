@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -158,6 +159,20 @@ namespace QuanLyThuVien
         {
             string query = "exec getAllDocGia";
             dgv_Reader.DataSource = DataProvider.Instance.ExecuteQuery(query);
+        }
+
+        private void sửaThôngTinĐộcGiảToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int row = dgv_Reader.CurrentRow.Index;
+
+            string id = dgv_Reader.Rows[row].Cells[0].Value.ToString();
+            string name = dgv_Reader.Rows[row].Cells[1].Value.ToString();
+            string bd = dgv_Reader.Rows[row].Cells[2].Value.ToString();
+            DateTime birth;
+            DateTime.TryParseExact(bd, "dd/MM/yyyy", null, DateTimeStyles.None, out birth);
+            frmSuaTTDocGia f = new frmSuaTTDocGia(id,name,birth);
+            f.ShowDialog();
+            cậpNhậtDanhSáchĐộcGiảToolStripMenuItem_Click(this,null);
         }
     }
 }
